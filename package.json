@@ -1,0 +1,23 @@
+{
+  "name": "pet_finder_react",
+  "version": "1.0.0",
+  "description": "This a pet finder application made with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onrush1995/pet_project_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onrush1995/pet_project_react/issues"
+  },
+  "homepage": "https://github.com/onrush1995/pet_project_react#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
