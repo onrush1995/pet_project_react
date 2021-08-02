@@ -9,11 +9,12 @@ const Pet = () =>{
 const App = ()=> {
     return React.createElement(
         "div",
-        {},[
-        React.createElement("h1",{},"Adopt me!"),
-        React.createElement(Pet),
-        React.createElement(Pet),
-        React.createElement(Pet),
+        {},
+        [
+        React.createElement("h1",{id:"my-brand"},"Adopt me!"),
+        React.createElement(Pet,{name:"Luna",animal:"Dog",breed:"Havanese"}),
+        React.createElement(Pet,{name:"Pepper",animal:"Bird",breed:"Cocktiel"}),
+        React.createElement(Pet,{name:"Sudo",animal:"Dog",breed:"Wheaten Terrier"}),
         ]
     );
 };
